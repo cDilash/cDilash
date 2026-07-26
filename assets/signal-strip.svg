@@ -1,0 +1,36 @@
+<svg width="1200" height="112" viewBox="0 0 1200 112" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">From idea to shipped product</title>
+  <desc id="desc">An animated product pipeline showing idea, interface, system, product, and store.</desc>
+  <defs>
+    <linearGradient id="track" x1="90" y1="0" x2="1110" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21D4FD"/>
+      <stop offset=".5" stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#F5B942"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B12"/>
+      <stop offset=".5" stop-color="#0A121D"/>
+      <stop offset="1" stop-color="#0C1721"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="110" rx="20" fill="url(#bg)" stroke="#AFC1D2" stroke-opacity=".14"/>
+  <text x="38" y="31" fill="#6F8294" font-family="Menlo" font-size="9" letter-spacing="1.8">BUILD SIGNAL // REPEATABLE DELIVERY</text>
+  <line x1="90" y1="67" x2="1110" y2="67" stroke="#3C5A6B" stroke-width="2"/>
+  <line x1="90" y1="67" x2="1110" y2="67" stroke="url(#track)" stroke-width="3" stroke-dasharray="70 950" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="0;-1020" dur="4.8s" repeatCount="indefinite"/>
+  </line>
+  <g font-family="Menlo" font-size="10" letter-spacing="1.4">
+    <g><circle cx="90" cy="67" r="6" fill="#0A121D" stroke="#21D4FD"/><text x="70" y="94" fill="#91A4B6">IDEA</text></g>
+    <g><circle cx="345" cy="67" r="6" fill="#0A121D" stroke="#43DFCE"/><text x="312" y="94" fill="#91A4B6">INTERFACE</text></g>
+    <g><circle cx="600" cy="67" r="6" fill="#0A121D" stroke="#4ADE80"/><text x="576" y="94" fill="#91A4B6">SYSTEM</text></g>
+    <g><circle cx="855" cy="67" r="6" fill="#0A121D" stroke="#B6DC58"/><text x="828" y="94" fill="#91A4B6">PRODUCT</text></g>
+    <g><circle cx="1110" cy="67" r="7" fill="#F5B942" filter="url(#glow)"/><text x="1092" y="94" fill="#F8D477">STORE</text></g>
+  </g>
+  <circle r="4.5" fill="#F7FAFC" filter="url(#glow)">
+    <animateMotion dur="4.8s" repeatCount="indefinite" path="M90 67 H1110"/>
+  </circle>
+</svg>
