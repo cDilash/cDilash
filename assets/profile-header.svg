@@ -1,0 +1,53 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">cDilash — Building practical software</title>
+  <desc id="desc">Animated developer profile banner highlighting TypeScript, React Native, Python, AI, fitness, and data.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0B1728"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#94A3B8" stroke-opacity="0.07"/>
+    </pattern>
+    <clipPath id="panel"><rect width="900" height="260" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#panel)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+    <rect width="900" height="260" fill="url(#grid)"/>
+    <circle cx="90" cy="42" r="190" fill="url(#glow)">
+      <animate attributeName="cx" values="90;810;90" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M-30 213 C120 160 220 246 370 194 S640 150 930 207" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 12" opacity="0.72">
+      <animate attributeName="stroke-dashoffset" values="0;-176" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-20 225 C130 172 230 258 380 206 S650 162 920 219" stroke="#38BDF8" stroke-opacity="0.16" stroke-width="14"/>
+  </g>
+
+  <rect x="1" y="1" width="898" height="258" rx="21" stroke="url(#accent)" stroke-opacity="0.42"/>
+  <circle cx="68" cy="52" r="5" fill="#22D3EE">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="84" y="58" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">BUILDING PRACTICAL SOFTWARE</text>
+  <text x="62" y="130" fill="#F8FAFC" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="750" letter-spacing="-2">cDilash</text>
+  <rect x="63" y="150" width="92" height="3" rx="2" fill="url(#accent)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="1.8">
+    <text x="63" y="188" fill="#67E8F9">AI  •  FITNESS  •  DATA
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="63" y="188" fill="#FDBA74" opacity="0">TYPESCRIPT  •  REACT NATIVE  •  PYTHON
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.5;0.92;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
