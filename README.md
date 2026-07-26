@@ -1,43 +1,133 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="cDilash — building practical software with TypeScript, React Native, and Python" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Dilash — independent product engineer shipping mobile products, AI systems, and local-first software" width="100%" />
 </p>
 
-## About
-
-I’m an independent product engineer building practical software across mobile, AI, data, and the web. My flagship product is **Everlift**, a local-first workout tracker live on iOS and Android.
-
-## Featured product
+<p align="center">
+  <a href="https://www.everlift.fit"><img src="https://img.shields.io/badge/FLAGSHIP-EVERLIFT-4ADE80?style=for-the-badge&labelColor=0A111B" alt="Everlift website" /></a>
+  <a href="https://apps.apple.com/us/app/everlift-gym-workout-log/id6760033237"><img src="https://img.shields.io/badge/APP_STORE-LIVE-F7FAFC?style=for-the-badge&logo=apple&logoColor=F7FAFC&labelColor=0A111B&color=24303D" alt="Everlift on the App Store" /></a>
+  <a href="https://play.google.com/store/apps/details?id=com.everlift.app"><img src="https://img.shields.io/badge/GOOGLE_PLAY-LIVE-F7FAFC?style=for-the-badge&logo=googleplay&logoColor=F7FAFC&labelColor=0A111B&color=24303D" alt="Everlift on Google Play" /></a>
+</p>
 
 <table>
 <tr>
 <td width="62%" valign="top">
-<h3><a href="https://github.com/cDilash/everlift-showcase">Everlift — Workout · Log · Ascend</a></h3>
-<p>A fast, privacy-conscious workout tracker with one-tap logging, honest training math, recovery intelligence, and deep progress analytics.</p>
-<p><strong>Live on iOS & Android</strong> · 9 languages · 400+ exercises · Offline-first</p>
-<p>
-<a href="https://apps.apple.com/us/app/everlift-gym-workout-log/id6760033237">App Store</a> ·
-<a href="https://play.google.com/store/apps/details?id=com.everlift.app">Google Play</a> ·
-<a href="https://www.everlift.fit">Website</a> ·
-<a href="https://github.com/cDilash/everlift-showcase">Case study</a>
-</p>
+
+### 01 / FLAGSHIP PRODUCT
+
+## [Everlift — Workout · Log · Ascend](https://github.com/cDilash/everlift-showcase)
+
+A local-first workout tracker built for **fast mid-set logging, honest training math, recovery intelligence, and deep progress analytics**.
+
+`LIVE ON IOS & ANDROID` · `9 LANGUAGES` · `400+ EXERCISES` · `NO ADS`
+
+**Why it matters:** Everlift is not a concept or tutorial project. It is a product I designed, engineered, localized, and shipped to both major app stores.
+
+[App Store](https://apps.apple.com/us/app/everlift-gym-workout-log/id6760033237) · [Google Play](https://play.google.com/store/apps/details?id=com.everlift.app) · [Product site](https://www.everlift.fit) · [Engineering case study](https://github.com/cDilash/everlift-showcase)
+
 </td>
-<td width="38%" align="center">
-<a href="https://github.com/cDilash/everlift-showcase">
-<img src="https://www.everlift.fit/screenshots/01_home.png" alt="Everlift readiness dashboard" width="220" />
-</a>
+<td width="38%" align="center" valign="middle">
+  <a href="https://github.com/cDilash/everlift-showcase">
+    <img src="https://www.everlift.fit/screenshots/01_home.png" alt="Everlift recovery readiness dashboard" width="235" />
+  </a>
 </td>
 </tr>
 </table>
 
-## Selected work
+<p align="center">
+  <img src="./assets/signal-strip.svg" alt="Build signal: idea to interface to system to product to store" width="100%" />
+</p>
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [Everlift](https://github.com/cDilash/everlift-showcase) | Live workout tracker with recovery intelligence, accurate training analytics, and an offline-first experience. | React Native · Expo · TypeScript · SQLite · Supabase |
-| [Gati](https://github.com/cDilash/Gati) | AI-assisted marathon coaching with adaptive plans, run-data integrations, and local-first storage. | React Native · Expo · TypeScript · Gemini · SQLite · Supabase |
-| [Echofy](https://github.com/cDilash/Echofy) | Privacy-first local transcription workstation powered by Whisper. | Python · Flask · Whisper · PyTorch |
-| [Game Server Load Balancer](https://github.com/cDilash/Load-Balancer-Game-Server) | Round-robin game-server simulation with thread-safe metrics and performance visualizations. | Python · Matplotlib |
+## 02 / SYSTEMS I LIKE TO BUILD
 
-## Tools
+<table>
+<tr>
+<td width="33%" valign="top">
 
-`TypeScript` · `React Native` · `Expo` · `Python` · `Supabase` · `SQLite` · `Drizzle ORM`
+### ◉ Mobile products
+
+Interfaces designed for real-world use: fast paths, native capabilities, offline resilience, and details that survive production.
+
+`REACT NATIVE` `EXPO` `SWIFTUI`
+
+</td>
+<td width="33%" valign="top">
+
+### ◈ Applied intelligence
+
+AI that supports a clear job instead of becoming the product story: coaching, transcription, useful automation, and contextual decisions.
+
+`GEMINI` `WHISPER` `PYTHON`
+
+</td>
+<td width="33%" valign="top">
+
+### ◎ Local-first data
+
+Software that stays responsive and trustworthy when the network disappears, with deliberate synchronization and privacy boundaries.
+
+`SQLITE` `DRIZZLE` `SUPABASE`
+
+</td>
+</tr>
+</table>
+
+## 03 / SELECTED SYSTEMS
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### [Everlift](https://github.com/cDilash/everlift-showcase)
+
+Shipped workout intelligence for iOS and Android.
+
+`MOBILE` `DATA`
+
+</td>
+<td width="25%" valign="top">
+
+### [Gati](https://github.com/cDilash/Gati)
+
+Adaptive marathon coaching with connected run data.
+
+`AI` `MOBILE`
+
+</td>
+<td width="25%" valign="top">
+
+### [Echofy](https://github.com/cDilash/Echofy)
+
+Private, on-device transcription powered by Whisper.
+
+`AI` `PRIVACY`
+
+</td>
+<td width="25%" valign="top">
+
+### [Load Balancer](https://github.com/cDilash/Load-Balancer-Game-Server)
+
+Thread-safe game-server simulation and metrics.
+
+`PYTHON` `SYSTEMS`
+
+</td>
+</tr>
+</table>
+
+## 04 / OPERATING PRINCIPLES
+
+```text
+01  SHIP THE SMALLEST COMPLETE EXPERIENCE
+02  MAKE THE FAST PATH FEEL INSTANT
+03  KEEP USER DATA BORINGLY SAFE
+04  USE AI WHERE CONTEXT CREATES LEVERAGE
+05  POLISH IS FUNCTIONAL WHEN PEOPLE USE IT DAILY
+```
+
+<p align="center">
+  <a href="https://www.everlift.fit">everlift.fit</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/cDilash/everlift-showcase">flagship case study</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/cDilash?tab=repositories">all public work</a>
+</p>
