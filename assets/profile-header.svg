@@ -92,7 +92,7 @@
     <text x="70" y="230" fill="#AFC1D2" font-family="Menlo" font-size="16" letter-spacing="5">PRODUCT ENGINEER</text>
     <rect x="68" y="250" width="598" height="1" fill="url(#line)" opacity=".42"/>
 
-    <text x="68" y="290" fill="#F7FAFC" font-family="Arial" font-size="23" font-weight="600">I turn rough ideas into shipped products.</text>
+    <text x="68" y="290" fill="#F7FAFC" font-family="Arial" font-size="23" font-weight="600">Two training apps. One shipped, one for me.</text>
 
     <g font-family="Menlo" font-size="10" letter-spacing="1.2">
       <g>
@@ -117,16 +117,16 @@
       </g>
     </g>
 
-    <text x="68" y="375" fill="#708397" font-family="Menlo" font-size="9" letter-spacing="1.6">PRODUCT PIPELINE</text>
+    <text x="68" y="375" fill="#708397" font-family="Menlo" font-size="9" letter-spacing="1.6">EVERLIFT // 2026</text>
     <line x1="90" y1="397" x2="694" y2="397" stroke="#466071" stroke-opacity=".72"/>
     <line x1="90" y1="397" x2="694" y2="397" stroke="url(#line)" stroke-width="2" stroke-dasharray="34 570">
       <animate attributeName="stroke-dashoffset" values="0;-604" dur="3.8s" repeatCount="indefinite"/>
     </line>
     <g font-family="Menlo" font-size="9" letter-spacing="1.2">
-      <g><circle cx="90" cy="397" r="6" fill="#0B1420" stroke="#21D4FD"/><text x="70" y="416" fill="#7F94A7">IDEA</text></g>
-      <g><circle cx="292" cy="397" r="6" fill="#0B1420" stroke="#48E5C2"/><text x="264" y="416" fill="#7F94A7">DESIGN</text></g>
-      <g><circle cx="493" cy="397" r="6" fill="#0B1420" stroke="#A7E163"/><text x="475" y="416" fill="#7F94A7">BUILD</text></g>
-      <g><circle cx="694" cy="397" r="7" fill="#4ADE80" filter="url(#softGlow)"/><text x="677" y="416" fill="#7CFFB2">SHIP</text></g>
+      <g><circle cx="90" cy="397" r="6" fill="#0B1420" stroke="#21D4FD"/><text x="61" y="416" fill="#7F94A7">JAN 2026</text></g>
+      <g><circle cx="292" cy="397" r="6" fill="#0B1420" stroke="#48E5C2"/><text x="252" y="416" fill="#7F94A7">752 COMMITS</text></g>
+      <g><circle cx="493" cy="397" r="6" fill="#0B1420" stroke="#A7E163"/><text x="453" y="416" fill="#7F94A7">BOTH STORES</text></g>
+      <g><circle cx="694" cy="397" r="7" fill="#4ADE80" filter="url(#softGlow)"/><text x="669" y="416" fill="#7CFFB2">v1.0.12</text></g>
     </g>
 
     <g clip-path="url(#rightClip)">
@@ -179,13 +179,13 @@
     <text x="58" y="464" fill="#6F8294" font-family="Menlo" font-size="9" letter-spacing="1.7">CURRENT SIGNAL</text>
     <circle cx="183" cy="460" r="3" fill="#4ADE80"/>
     <g font-family="Menlo" font-size="9" letter-spacing="1.5">
-      <text x="201" y="464" fill="#B6C7D6">MOBILE PRODUCTS</text>
+      <text x="201" y="464" fill="#B6C7D6">414 EXERCISES</text>
       <text x="378" y="464" fill="#405467">/</text>
-      <text x="405" y="464" fill="#B6C7D6">AI SYSTEMS</text>
+      <text x="405" y="464" fill="#B6C7D6">9 LANGUAGES</text>
       <text x="530" y="464" fill="#405467">/</text>
-      <text x="557" y="464" fill="#B6C7D6">LOCAL-FIRST DATA</text>
+      <text x="557" y="464" fill="#B6C7D6">NO ADS, NO ACCOUNT</text>
       <text x="737" y="464" fill="#405467">/</text>
-      <text x="764" y="464" fill="#B6C7D6">INTERFACES THAT EARN THEIR PLACE</text>
+      <text x="764" y="464" fill="#B6C7D6">WORKS WITH NO SIGNAL</text>
     </g>
   </g>
 
