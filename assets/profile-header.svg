@@ -124,8 +124,8 @@
     </line>
     <g font-family="Menlo" font-size="9" letter-spacing="1.2">
       <g><circle cx="90" cy="397" r="6" fill="#0B1420" stroke="#21D4FD"/><text x="61" y="416" fill="#7F94A7">JAN 2026</text></g>
-      <g><circle cx="292" cy="397" r="6" fill="#0B1420" stroke="#48E5C2"/><text x="252" y="416" fill="#7F94A7">752 COMMITS</text></g>
-      <g><circle cx="493" cy="397" r="6" fill="#0B1420" stroke="#A7E163"/><text x="453" y="416" fill="#7F94A7">BOTH STORES</text></g>
+      <g><circle cx="292" cy="397" r="6" fill="#0B1420" stroke="#48E5C2"/><text x="260" y="416" fill="#7F94A7">APP STORE</text></g>
+      <g><circle cx="493" cy="397" r="6" fill="#0B1420" stroke="#A7E163"/><text x="453" y="416" fill="#7F94A7">GOOGLE PLAY</text></g>
       <g><circle cx="694" cy="397" r="7" fill="#4ADE80" filter="url(#softGlow)"/><text x="669" y="416" fill="#7CFFB2">v1.0.12</text></g>
     </g>
 

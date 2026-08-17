@@ -22,7 +22,7 @@ Most of what I work on is local-first. I'd rather an app be useful on a plane th
 <tr>
 <td width="62%" valign="top">
 
-A gym workout tracker. 752 commits since January 2026, still shipping — the most recent one was a QR redirect straight to the store listing.
+A gym workout tracker. Started it in January 2026 and still shipping — the most recent change was a QR redirect straight to the store listing.
 
 The constraint everything else got built around: **logging a set has to be faster than the rest between sets.** If you're mid-set and the app takes six taps, you stop using it by week three. That decision is why the analytics live two screens deep instead of on the home tab, and why there's no account signup — the first launch drops you straight into a workout.
 
@@ -43,7 +43,7 @@ No ads, no subscription wall on the core logger.
 
 ## 02 / Gati
 
-**[Repository](https://github.com/cDilash/Gati)** — marathon coaching, 129 commits, not on any store. I'm the only user.
+**[Repository](https://github.com/cDilash/Gati)** — marathon coaching, not on any store. I'm the only user.
 
 <table>
 <tr>
