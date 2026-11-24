@@ -22,7 +22,7 @@ Most of what I work on is local-first. I'd rather an app be useful on a plane th
 <tr>
 <td width="62%" valign="top">
 
-A gym workout tracker. Started it in January 2026 and still shipping — the most recent change was a QR redirect straight to the store listing.
+A gym workout tracker. Started it in January 2026 and still shipping — the most recent release, 1.0.14, was a full redesign.
 
 The constraint everything else got built around: **logging a set has to be faster than the rest between sets.** If you're mid-set and the app takes six taps, you stop using it by week three. That decision is why the analytics live two screens deep instead of on the home tab, and why there's no account signup — the first launch drops you straight into a workout.
 
@@ -33,7 +33,7 @@ No ads, no subscription wall on the core logger.
 </td>
 <td width="38%" align="center" valign="middle">
   <a href="https://github.com/cDilash/everlift-showcase">
-    <img src="https://www.everlift.fit/screenshots/01_home.png" alt="Everlift home screen" width="235" />
+    <img src="./assets/everlift-home.webp" alt="Everlift home screen" width="235" />
   </a>
 </td>
 </tr>
